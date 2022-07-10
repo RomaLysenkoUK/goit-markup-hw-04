@@ -126,6 +126,22 @@ img {
     {
  color: var(--accent-color);
 }
+.icon-email::before{
+    display: inline-flex;
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../images/icons.svg/envelope.svg);
+}
+.icon-tel::before{
+    display: inline-flex;
+    content:"";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../images/icons.svg/smartphone.svg);
+}
 .accent{
     color: var(--accent-color);
 }
@@ -207,18 +223,49 @@ img {
 .future-list{
     display: flex;
 }
-.future-item :nth-child(1)::before{
+.future-item:nth-child(1)::before{
     content: "";
-    background-image: url();
+    display: block;
+    height: 120px;
+    content: "";
+    background-image: url(../images/icons.svg/antenna\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
 }
-.future-item :nth-child(2)::before{
-    background-image: url();
+.future-item:nth-child(2)::before{
+    content: "";
+    display: block;
+    height: 120px;
+    content: "";
+    background-image: url(../images/icons.svg/clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
 }   
-.future-item :nth-child(3)::before{
-    background-image: url();
+.future-item:nth-child(3)::before{
+    content: "";
+    display: block;
+    height: 120px;
+    content: "";
+    background-image: url(../images/icons.svg/diagram\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
 }
-.future-item :nth-child(4)::before{
-    background-image: url();
+.future-item:nth-child(4)::before{
+    content: "";
+    display: block;
+    height: 120px;
+    content: "";
+    background-image: url(../images/icons.svg/astronaut\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
 }   
 .future-item{
     text-align: left;
@@ -260,6 +307,25 @@ img {
 .team-item:not(:last-child){
     margin-right: 30px;
 }
+.client{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.client-box{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.client-box:not(:last-child){
+    margin-right: 30px;
+}
 .partf-img-text{
     font-size: 18px;
     line-height: 2;
@@ -299,6 +365,14 @@ img {
     
     margin-bottom: 0px;
     
+}
+.link-team-box{
+    display: flex;
+    margin-top: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+    list-style: none;
+    justify-content: center;
 }
 .section-tittle{
     font-family: 'Roboto';
