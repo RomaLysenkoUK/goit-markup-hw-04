@@ -146,7 +146,7 @@ img {
     color: var(--accent-color);
 }
 
-.icon-email::before {
+/*.icon-email::before {
     display: inline-flex;
     content: "";
     width: 16px;
@@ -162,7 +162,7 @@ img {
     height: 16px;
     margin-right: 10px;
     background-image: url(../images/icons/smartphone.svg);
-}
+}*/
 
 .accent {
     color: var(--accent-color);
