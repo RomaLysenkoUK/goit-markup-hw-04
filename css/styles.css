@@ -146,23 +146,18 @@ img {
     color: var(--accent-color);
 }
 
-/*.icon-email::before {
-    display: inline-flex;
-    content: "";
+.icon-email {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../images/icons/envelope.svg);
 }
 
-.icon-tel::before {
-    display: inline-flex;
-    content: "";
+.icon-tel {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-image: url(../images/icons/smartphone.svg);
-}*/
+
+}
 
 .accent {
     color: var(--accent-color);
